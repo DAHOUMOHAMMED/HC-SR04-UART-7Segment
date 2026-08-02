@@ -12,3 +12,6 @@ The system consists of two microcontrollers communicating through UART:
   - Checks checksum validity
   - Displays distance on multiplexed 7-segment display
 
+## Hardware Setup
+
+![Hardware setup](Images/montage.jpg)
