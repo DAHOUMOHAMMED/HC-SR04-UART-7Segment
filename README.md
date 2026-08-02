@@ -1,12 +1,14 @@
-# HC-SR04 UART 7-Segment Distance Sensor
+## System Architecture
 
-Embedded system project demonstrating UART communication
-between two microcontrollers.
+The system consists of two microcontrollers communicating through UART:
 
-Features:
-- HC-SR04 ultrasonic distance measurement
-- UART communication
-- Custom frame protocol
-- Checksum validation
-- Multiplexed 7-segment display
+- Arduino UNO:
+  - Reads distance from HC-SR04 ultrasonic sensor
+  - Generates measurement frame
+  - Sends data through UART
+
+- Arduino Mega 2560:
+  - Receives UART frame
+  - Checks checksum validity
+  - Displays distance on multiplexed 7-segment display
 
