@@ -9,4 +9,4 @@ Features:
 - Custom frame protocol
 - Checksum validation
 - Multiplexed 7-segment display
-- Non-blocking timing with millis()
+
